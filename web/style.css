@@ -1,0 +1,28 @@
+
+.header {
+    background-color: #3333ff;
+    height: 50px;
+    width:  800px;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: #3333ff;
+    height: 500px;
+    width:  100px;
+    float:  left;
+}
+
+.footer {
+    width: 800px;
+    height: 50px;
+    
+}
+
+.content {
+
+}
+
+.table {
+ width:  400px;
+}
