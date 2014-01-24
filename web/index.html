@@ -12,32 +12,27 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
     </head>
-    <body>
-        <div id="container" style="width:800px" >
+    <body class="body">
+        <div id="container" class="container" >
             <div id="header"  class="header">
-                <h1>Programming Resources</h1></div>
-                <div id="sidebar" class="sidebar">
-                    <p>JAVA</p><b></b>
-                    <p>JavaScript</p><b></b>
-                    <p>ASP.NET</p><b></b>
-                    <b></b>
-                    <b></b>
-                    <b></b>
-                    <b></b>
-                    <b></b>
-                    <b></b>
+            </div>
+            <div id="titleBar" class="titleBar">
+                <p>Programming Resources</p>
+            </div>
+
+            <div id="content" class="content">
+                <div id="leftSideBar" class="sidebar"></div>
+                <div id="rightSideBar" class="rightSideBar"></div>      
+                <h2>Welcome to the programming resources page!</h2>
+                <h3>Please enter your name to continue</h3>
+                <form id="form1" name="form1" method="POST" action="NameDate">
                     
-                  </div>     
-                    <div id="content" class="content">
-                        <table class="table">
-                            <tr><td>Java 7 API</td><td><a href="http://docs.oracle.com/javase/7/docs/api/">Link to Java 7 API</a> </td></tr>
-                       <tr><td>Java 7 EE API</td><td><a href="http://docs.oracle.com/javaee/7/api/">Link to Java EE 7 API</a> </td></tr>
-                        
-                        </table>
-                           
-                    </div>
+                    <input type="text" name="name"><br><br>
+                    <input id="nameSubmit" name="nameSubmit" type="submit" value="Submit Name">
+                </form>
+            </div>
             <div id="footer"  class="footer">
-                </div>
-            
-                       
-        </body>
+            </div>
+
+        </div>              
+    </body>
